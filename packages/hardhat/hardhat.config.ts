@@ -115,6 +115,10 @@ const config: HardhatUserConfig = {
       accounts: [deployerPrivateKey],
     },
     scrollSepolia: {
+      url: "https://rpc-test.arthera.net",
+      accounts: [deployerPrivateKey],
+    },
+    artheraTestnet: {
       url: "https://sepolia-rpc.scroll.io",
       accounts: [deployerPrivateKey],
     },
